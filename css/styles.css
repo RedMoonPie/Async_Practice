@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url('../img/screen-5.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    color: white;
+}
+
+.card{
+
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 8px 16px 8px rgba(25, 236, 222, 0.308);
+}
+.img-photo{
+    width: 14rem;
+    height: 13rem;
+    border-radius: 60px;
+    margin-bottom: 20px;
+   
+    
+}
+.card-photo{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.origin{
+    font-size: large;
+    font-weight: 200;
+    font-family: cursive;
+    align-self: center;
+    color: rgb(20, 245, 31);
+}
